@@ -58,6 +58,7 @@ import axios from 'axios'
 import swal from 'sweetalert'
 
 export default {
+  name: 'CreateBook',
   data () {
     return {
       form: {

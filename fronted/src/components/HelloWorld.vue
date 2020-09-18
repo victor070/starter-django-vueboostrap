@@ -1,12 +1,17 @@
 <template>
   <div class="hello">
-
+    <NotFount />
   </div>
 </template>
 
 <script>
+import NotFount from '@/components/NotFount.vue'
+
 export default {
   name: 'HelloWorld',
+  components: {
+    NotFount
+  },
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'

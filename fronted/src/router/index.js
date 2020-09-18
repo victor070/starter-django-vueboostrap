@@ -5,6 +5,7 @@ import ListBook from '@/components/book/ListBook.vue'
 import EditBook from '@/components/book/EditBook.vue'
 import DeleteBook from '@/components/book/DeleteBook.vue'
 import CreateBook from '@/components/book/CreateBook.vue'
+import NotFount from '@/components/NotFount.vue'
 
 Vue.use(Router)
 
@@ -34,6 +35,11 @@ export default new Router({
       path: '/books/create',
       name: 'CreateBook',
       component: CreateBook
+    },
+    {
+      path: '/404',
+      name: 'NotFount',
+      component: NotFount
     }
   ],
   mode: 'history'

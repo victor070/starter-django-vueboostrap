@@ -1,6 +1,7 @@
 Before you dive into anything, see for yourself how easy you can setup a full workflow framework for your `development` and `deployment` for your real world project.
 
 Step 1: Clone this repo
+   https://github.com/victor070/starter-django-vueboostrap.git
 
 Step 2: Create a virtualenv with python3
 
